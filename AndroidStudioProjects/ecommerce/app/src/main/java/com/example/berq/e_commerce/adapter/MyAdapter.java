@@ -18,7 +18,6 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.example.berq.e_commerce.R;
 import com.example.berq.e_commerce.activity.LoginActivity;
-import com.example.berq.e_commerce.activity.firstRecycler;
 import com.example.berq.e_commerce.helper.Product;
 import com.example.berq.e_commerce.helper.SessionManager;
 

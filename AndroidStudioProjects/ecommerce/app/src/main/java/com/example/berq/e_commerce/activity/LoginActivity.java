@@ -18,6 +18,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.example.berq.e_commerce.R;
 import com.example.berq.e_commerce.app.AppConfig;
 import com.example.berq.e_commerce.app.AppController;
+import com.example.berq.e_commerce.fragments.HomeFragment;
 import com.example.berq.e_commerce.helper.SQLiteHandler;
 import com.example.berq.e_commerce.helper.SessionManager;
 
@@ -144,6 +145,7 @@ public class LoginActivity extends Activity {
                                 MainActivity.class);
                         startActivity(intent);
                         finish();
+
                     } else {
                         // Error in login. Get the error message
                         String errorMsg = jObj.getString("error_msg");
