@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Anasayfa"
+        android:title="Anasayfa"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/Kategori"
+        android:title="Kategori"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/Sepetim"
+        android:title="Sepetim"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        app:actionLayout="@layout/custom_action_item_layout"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/Ben"
+        android:title="Ben"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+</menu>
